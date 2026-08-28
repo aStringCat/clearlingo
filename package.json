@@ -1,0 +1,13 @@
+{
+  "name": "clearlingo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/background.js && node --check src/content.js && node --check src/translator.js && node --check popup/popup.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
